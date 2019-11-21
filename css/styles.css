@@ -14,3 +14,7 @@ h2 {
   color: black;
   font-family: fantasy;
 }
+
+p {
+  font-family: monospace;
+}
