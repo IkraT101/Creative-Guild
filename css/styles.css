@@ -2,9 +2,7 @@ body {
   color: black;
   font-family: Lucida,Courier,monospace;
   margin: 10px;
-
-  background-image: url(https://ibb.co/3FsdYg9);
-  background-image: url();
+  background-image: image(bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
@@ -12,11 +10,11 @@ body {
 
 h1 {
   color: black;
-  font-family: Lucinda;
+  font-family: monospace;
   font-size: 4em;
 }
 
 h2 {
   color: black;
-  font-family: Lucinda;
+  font-family: monospace;
 }
