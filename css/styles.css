@@ -2,17 +2,21 @@ body {
   color: black;
   font-family: Lucida,Courier,monospace;
   margin: 10px;
+  background-image: url(https://ibb.co/3FsdYg9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 h1 {
   color: black;
-  font-family: fantasy;
+  font-family: Lucinda;
   font-size: 4em;
 }
 
 h2 {
   color: black;
-  font-family: fantasy;
+  font-family: Lucinda;
 }
 
 p {
