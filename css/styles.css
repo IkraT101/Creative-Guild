@@ -8,6 +8,11 @@ body {
   background-blend-mode: multiply;
 }
 
+div {
+  display: flex;
+  justify-content: center;
+}
+
 h1 {
   color: black;
   font-family: monospace;
@@ -19,7 +24,7 @@ img {
   margin: 50;
   padding: 20px;
   border-radius: 250px;
-  size: 100px;
+  size: 400px;
 }
 
 
