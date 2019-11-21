@@ -14,6 +14,15 @@ h1 {
   font-size: 4em;
 }
 
+
+img {
+  margin: 50;
+  padding: 20px;
+  border-radius: 250px;
+  size: 100px;
+}
+
+
 h2 {
   color: black;
   font-family: monospace;
