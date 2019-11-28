@@ -29,8 +29,8 @@ self.addEventListener('install', function(event) {
 var CACHE_NAME = 'Creative-Guild';
 var urlsToCache = [
   '/',
-  '/styles/main.css',
-  '/script/main.js'
+  '/styles.css',
+  '/sw.js'
 ];
 
 self.addEventListener('install', function(event) {
