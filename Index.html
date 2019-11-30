@@ -15,23 +15,6 @@
   </head>
 <body>
 
-<script src="js/sw.js"></script>
-
-<script src="js/service-Worker.js">
-  <if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-    navigator.serviceWorker.register('sw.js').then(function(registration) {
-      // Registration was successful
-      console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-}>
-</script>
-
-
   <div class="container" id="buttons" >
       <button type="button" class="btn btn-danger">About</button>
       <button type="button" class="btn btn-secondary">Post</button>
@@ -72,7 +55,8 @@
 </div>
 
 
-
+<script src="js/database.js"></script>
+<script src="js/script.js"></script>
 
 </body>
 </html>
